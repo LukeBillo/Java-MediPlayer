@@ -1,0 +1,70 @@
+@import "_variables.scss";
+
+#loginContainer {
+  -fx-alignment: top-center;
+  -fx-pref-height: map-get($LOGIN-SIZE, "h");
+  -fx-pref-width: map-get($LOGIN-SIZE, "w");
+}
+
+#title {
+  @include center();
+  @include center-text();
+
+  -fx-font-size: $TITLE-SIZE;
+  -fx-padding: 40;
+}
+
+#loginGrid {
+  -fx-max-height: infinity;
+  -fx-max-width: infinity;
+  -fx-vgap: $GRID-VGAP;
+
+}
+
+#loginGrid > .label {
+  -fx-alignment: center;
+  -fx-max-height: infinity;
+  -fx-max-width: infinity;
+}
+
+#loginButton {
+  @include center();
+
+  -fx-scale-x: 1.25;
+  -fx-scale-y: 1.25;
+}
+
+#socialScene {
+}
+
+#homeButton {
+  // TODO: FIND ICONS
+  // -fx-background-image: url("images/home-icon.png");
+}
+
+#messageBox {
+  -fx-font-size: 12;
+  -fx-font-family: "Calibri Light";
+}
+
+#chatContainer {
+
+}
+
+#avatarImage {
+  -fx-padding: 20;
+}
+
+.errorLabel {
+  -fx-text-fill: crimson;
+  -fx-alignment: center;
+  -fx-text-alignment: center;
+}
+
+.toolButton {
+  @include center();
+
+  -fx-pref-width: 50;
+  -fx-pref-height: 50;
+  -fx-padding: 10;
+}

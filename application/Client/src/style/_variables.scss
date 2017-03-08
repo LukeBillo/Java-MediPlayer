@@ -1,0 +1,14 @@
+// Variables for main.scss
+
+$TITLE-SIZE: 48;
+$GRID-VGAP: 20;
+$LOGIN-SIZE: ("w": 600, "h": 400);
+
+@mixin center() {
+  -fx-alignment: center;
+}
+
+@mixin center-text() {
+  -fx-text-alignment: center;
+  -fx-content-display: center;
+}

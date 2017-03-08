@@ -1,0 +1,56 @@
+#loginContainer, #registerContainer {
+  -fx-alignment: center;
+  -fx-pref-height: 400;
+  -fx-pref-width: 600; }
+
+#title {
+  -fx-alignment: center;
+  -fx-text-alignment: center;
+  -fx-content-display: center;
+  -fx-font-size: 48; }
+
+#loginContainer > #title {
+  -fx-padding: 40; }
+
+#registerContainer > #title {
+  -fx-padding: 25; }
+
+#loginGrid {
+  -fx-max-height: infinity;
+  -fx-max-width: infinity;
+  -fx-vgap: 20; }
+
+#loginGrid > .label {
+  -fx-alignment: center;
+  -fx-max-height: infinity;
+  -fx-max-width: infinity; }
+
+#loginButton {
+  -fx-alignment: center;
+  -fx-scale-x: 1.25;
+  -fx-scale-y: 1.25; }
+
+#registerButton {
+  -fx-alignment: center;
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1; }
+
+#messageBox {
+  -fx-font-size: 12;
+  -fx-font-family: "Calibri Light"; }
+
+#avatarImage {
+  -fx-padding: 20; }
+
+.errorLabel {
+  -fx-text-fill: crimson;
+  -fx-alignment: center;
+  -fx-text-alignment: center; }
+
+.toolButton {
+  -fx-alignment: center;
+  -fx-pref-width: 50;
+  -fx-pref-height: 50;
+  -fx-padding: 10; }
+
+/*# sourceMappingURL=main.css.map */
